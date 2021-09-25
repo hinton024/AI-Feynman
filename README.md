@@ -1,15 +1,5 @@
 # Quick Start
-## Installation
-It's strongly recommended to setup a fresh virtual environment by typing
-
-    virtualenv -p python3 feyn
-    source feyn/bin/activate
-    
-First install numpy with `pip install numpy`.
-The 'aifeynman' package is available on PyPI and can be installed with `pip install aifeynman`.
-
-Note that for now, AI Feynman is supported only for Linux and Mac environments.
-
+#Computational Physics Project Based On AI-Feynman Technique
 ## First example
 Move into a clean directory and run the following Python commands:
 
@@ -56,28 +46,3 @@ If test_percentage is different than zero, one more number is added in the begin
 ai_feynman_terminal_example.py allows calling the aiFeynman function from the command line. 
 (e.g. python ai_feynman_terminal_example.py --pathdir=../example_data/ --filename=example1.txt). Use python ai_feynman_terminal_example.py --help to display all the available parameters that can be passed to the function.
 
-# Citation
-
-If you compare with, build on, or use aspects of the AI Feynman work, please cite the following:
-
-```
-@article{udrescu2020ai,
-  title={AI Feynman: A physics-inspired method for symbolic regression},
-  author={Udrescu, Silviu-Marian and Tegmark, Max},
-  journal={Science Advances},
-  volume={6},
-  number={16},
-  pages={eaay2631},
-  year={2020},
-  publisher={American Association for the Advancement of Science}
-}
-```
-
-```
-@article{udrescu2020ai,
-  title={AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity},
-  author={Udrescu, Silviu-Marian and Tan, Andrew and Feng, Jiahai and Neto, Orisvaldo and Wu, Tailin and Tegmark, Max},
-  journal={arXiv preprint arXiv:2006.10782},
-  year={2020}
-}
-```
