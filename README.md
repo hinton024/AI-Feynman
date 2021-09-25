@@ -1,5 +1,5 @@
-# Quick Start
-#Computational Physics Project Based On AI-Feynman Technique
+
+# Computational Physics Project Based On AI-Feynman Technique
 ## First example
 Move into a clean directory and run the following Python commands:
 
